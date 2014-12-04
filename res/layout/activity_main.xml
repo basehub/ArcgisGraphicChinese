@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arcgisgraphicchinese.MainActivity" >
+
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapoptions.MapType="Topo"
+        mapoptions.ZoomLevel="16"
+        mapoptions.center="34.056215, -117.195668" />
+    
+    <Button 
+        android:id="@+id/btn_clear"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="clear"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
